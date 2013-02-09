@@ -35,7 +35,7 @@
 	  NCrunch
 	  VS2012Up2CTP2
 	  VSToolsForGit</description>
-    <projectUrl>http://www.kellyelton.com/</projectUrl>
+    <projectUrl>https://github.com/kellyelton/kellyelton.vsextensions</projectUrl>
     <tags>vsextensions vs vsix</tags>
     <copyright>2013</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
