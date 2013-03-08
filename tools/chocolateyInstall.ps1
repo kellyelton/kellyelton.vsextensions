@@ -59,7 +59,7 @@ try {
 	installsilently http://visualstudiogallery.msdn.microsoft.com/32b91d27-2a0f-4a4b-9ad3-caed8b4ced4b/file/47111/5/SharpComments.vsix SharpComments
 	Install-ChocolateyPackage 'Resharper' 'msi' '/quiet' 'http://visualstudiogallery.msdn.microsoft.com/EA4AC039-1B5C-4D11-804E-9BEDE2E63ECF/file/4729/11/ReSharperSetup.7.1.1000.900.msi'
 	Install-ChocolateyPackage 'NCrunch' 'msi' '/quiet' 'http://downloads.ncrunch.net/NCrunch_VS2012_1.44.0.11.msi'
-	Install-ChocolateyPackage 'VS2012Up2CTP2' 'exe' '/SILENT' 'http://download.microsoft.com/download/8/9/3/89372D24-6707-4587-A7F0-10A29EECA317/vsupdate_KB2707250.exe'
+	Install-ChocolateyPackage 'VS2012Up2CTP2' 'exe' '/SILENT' 'http://download.microsoft.com/download/1/A/5/1A5DD265-6EDF-4609-976A-91E19D47AB29/VS2012.2%20CTP.exe'
 	installsilently http://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c/file/93137/1/Microsoft.TeamFoundation.Git.Provider.vsix VSToolsForGit
     Write-ChocolateySuccess $packageName
 } catch {
