@@ -61,6 +61,7 @@ try {
 	Install-ChocolateyPackage 'NCrunch' 'msi' '/quiet' 'http://downloads.ncrunch.net/NCrunch_VS2012_1.44.0.11.msi'
 	Install-ChocolateyPackage 'VS2012Up2CTP2' 'exe' '/SILENT' 'http://download.microsoft.com/download/1/A/5/1A5DD265-6EDF-4609-976A-91E19D47AB29/VS2012.2%20CTP.exe'
 	installsilently http://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c/file/93137/1/Microsoft.TeamFoundation.Git.Provider.vsix VSToolsForGit
+	Install-ChocolateyPackage 'PythonTools' 'msi' '/quiet' 'http://pytools.codeplex.com/downloads/get/523956'
     Write-ChocolateySuccess $packageName
 } catch {
   Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
