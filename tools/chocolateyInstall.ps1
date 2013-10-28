@@ -63,6 +63,8 @@ try {
 	installsilently http://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c/file/93137/1/Microsoft.TeamFoundation.Git.Provider.vsix VSToolsForGit
 	installsilently http://visualstudiogallery.msdn.microsoft.com/B08B0375-139E-41D7-AF9B-FAEE50F68392/file/5131/7/SnippetDesigner.vsix SnippetDesigner
 	Install-ChocolateyPackage 'PythonTools' 'msi' '/quiet' 'http://pytools.codeplex.com/downloads/get/523956'
+	installsilently http://visualstudiogallery.msdn.microsoft.com/bc07ec7e-abfa-425f-bb65-2411a260b926/file/84185/2/CSharpOutline.vsix
+	installsilently http://visualstudiogallery.msdn.microsoft.com/c9eb3ba8-0c59-4944-9a62-6eee37294597/file/112013/3/PowerShellTools.vsix
     Write-ChocolateySuccess $packageName
 } catch {
   Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
