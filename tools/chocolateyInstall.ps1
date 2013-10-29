@@ -10,7 +10,7 @@ function Get-Batchfile ($file) {
 
 function VsVars32()
 {
-    $BatchFile = join-path $env:VS110COMNTOOLS "vsvars32.bat"
+    $BatchFile = join-path $env:VS120COMNTOOLS "vsvars32.bat"
     Get-Batchfile `"$BatchFile`"
 }
 
