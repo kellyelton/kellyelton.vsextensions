@@ -3,28 +3,17 @@
   <metadata>
     <id>kellyelton.vsextensions</id>
     <title>Kelly Eltons VS Extenions</title>
-    <version>1.0.0.8</version>
+    <version>1.0.0.9</version>
     <authors>Kelly Elton</authors>
     <owners>Kelly Elton</owners>
     <summary>VS Extensions I install</summary>
     <description>VS Extensions I Install\
 
-	  .Net Demon
-      Productivity Power Tools
-      VSCommands
       VsVim
-      WebEssentials
-      WebWorkbench
-      .Net Demon
 	  CodeAlignment
 	  IndentGuides
 	  SlowCheetah
-	  SharpComments
-	  Resharper
-	  NCrunch
-	  VSToolsForGit
 	  PythonTools
-	  SnippetDesigner
 	  C# Outline
 	  Powershell Tools</description>
     <projectUrl>https://github.com/kellyelton/kellyelton.vsextensions</projectUrl>
@@ -34,11 +23,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://www.gravatar.com/avatar/2a9c790c93dec4979aa8702ab53d2c7a.png</iconUrl>
     <dependencies>
-      <dependency id="VisualStudio2013Professional" />
-	  <dependency id="VS2013.PowerTools" />
-	  <dependency id="VS2013.VSCommands"/>
-	  <dependency id="resharper"/>
-	  <dependency id="ncrunch2.vs2013"/>
     </dependencies>
     <releaseNotes>Fixed vs path issue.</releaseNotes>
   </metadata>
